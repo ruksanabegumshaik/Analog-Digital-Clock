@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Analog Clock with Digital Display</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+       
+    <div class="clock-container">
+        <div class="analog-clock">
+            <div class="hand hour" id="hour"></div>
+            <div class="hand minute" id="minute"></div>
+            <div class="hand second" id="second"></div>
+            <div class="center-point"></div>
+        </div>
+        <div class="digital-clock" id="digital-clock"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
